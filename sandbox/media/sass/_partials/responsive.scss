@@ -1,0 +1,178 @@
+@media (max-width: 1024px) {
+    header{
+        nav{
+            ul{
+                li{
+                    a{
+                        &::after{
+                           padding: 0 50px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 769px) {
+    header{
+        nav{
+            .menu-logo{
+                .logo{
+                    position: relative !important;
+                    padding-bottom: 20px;
+                }
+            }
+        }
+    }
+    .works{
+        .list-works{
+            .item-work{
+                margin-bottom: 30px;
+            }
+        }
+        .share-social{
+            ul{ text-align: center !important; }
+        }
+    }
+    .share-social{
+        text-align: center !important;
+    }
+}
+
+
+@media (max-width: 570px) {
+    header{
+        nav{
+            text-align: left !important;
+            padding: 30px !important;
+            .menu-logo{
+                ul{
+                    li{
+                        a{
+                            &::after{
+                                padding: 0 50px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .home{
+        .content-home{
+            h1{
+                span{
+                    font-size: 130px !important;
+                    line-height: 140px !important;
+                }
+            }
+        }
+    }
+    .section-title h2{
+        font-size: 100px !important;
+        line-height: 110px !important;
+    }
+    .about{ padding: 100px 0 !important; }
+    .works{
+        padding: 100px 0 !important;
+        .list-works{
+            .item-work{
+                .rollover{
+                    h3{ margin-top: 0; }
+                    hr{ margin: 0 0 5px 0; }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 569px) {
+     header{
+        nav{
+            text-align: left !important;
+            padding: 30px !important;
+            .menu-logo{
+                ul{
+                    li{
+                        a{
+                            &::after{
+                                padding: 0 40px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .bg-404-page{
+        .error-page{
+            max-width: auto !important;
+            padding: 150px 15px !important;
+            h1{
+                font-size: 60px !important;
+                line-height: 70px !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    header{
+        nav{
+            text-align: left !important;
+            padding: 30px 15px !important;
+            .menu-logo{
+                ul{
+                    li{
+                        a{
+                            &::after{
+                                padding: 0 20px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .home{
+        .content-home{
+            h1{
+                span{
+                    font-size: 80px !important;
+                    line-height: 90px !important;
+                }
+            }
+        }
+    }
+    .section-title {
+        h2{
+            font-size: 70px !important;
+            line-height: 80px !important;
+        }
+        p{ margin-top: 15px !important; }
+    }
+    .col-xs-6{ width: 100% !important; }
+    .about{
+        .content-about{
+            .team{ margin-bottom: 50px; }
+        }
+    }
+    .contact{
+        .content-contact{
+            .contact-email{
+                a{
+                    font-size: 30px !important;
+                    line-height: 40px !important;
+                }
+            }
+        }
+    }
+    footer .social-links li {
+        padding: 0 20px !important;
+    }
+    .play-video{
+        .information-about{
+            padding: 50px !important;
+        }
+    }
+}
